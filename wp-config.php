@@ -29,7 +29,7 @@ define('DB_USER', 'bigfoto_db');
 define('DB_PASSWORD', 'UVManHZr');
 
 /** MySQL hostname */
-define('DB_HOST', 'bigfoto.ftp.tools');
+define('DB_HOST', 'bigfoto.mysql.ukraine.com.ua');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
