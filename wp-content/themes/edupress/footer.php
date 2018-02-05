@@ -16,7 +16,7 @@ $ilovewp_logo = get_template_directory_uri() . '/images/ilovewp-logo-white.png';
 		<?php get_sidebar( 'footer' ); ?>
 		
 		<div class="wrapper wrapper-copy">
-			<p class="copy"><?php _e('Copyright &copy;','edupress');?> <?php echo date_i18n(__("Y","edupress")); ?> <?php bloginfo('name'); ?>. <?php _e('All Rights Reserved', 'edupress');?>. </p>
+			
 			<p class="copy-ilovewp"></p>
 		</div><!-- .wrapper .wrapper-copy -->
 	

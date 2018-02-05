@@ -395,6 +395,10 @@ h1 a:focus, h2 a:focus, h3 a:focus, h4 a:focus, h5 a:focus, h6 a:focus {
 	width: 174px;
 	height: 50px;
 }
+.site-header .site-title a {
+	display: block;
+	height: 100%;
+}
 
 .site-header .site-description {
 	color: #fff;
@@ -2306,6 +2310,18 @@ html .ilovewp-slides {height: 1%;}
   line-height: 30px;
   padding: 7px 12px;
   height: 44px; }
+
+  .socilaList {
+  	float: right;
+  	margin: 0 0 0 15px;
+  }
+  .socilaList li {
+  	float: left;
+  	margin: 0 0 0 10px;
+  }
+  .socilaList li a img {
+  	border-radius: 2px;
+  }
 
 
 /******************************************

@@ -13,12 +13,10 @@
 
 	<header class="ilovewp-page-intro ilovewp-page-inner">
 		<h1 class="title-page"><?php the_title(); ?></h1>
-		<?php if ( 1 == get_theme_mod( 'edupress_single_gravatar', 1 ) ) { ?><span class="post-meta-gravatar"><?php echo get_avatar( get_the_author_meta( 'ID' ), '60' ); ?></span><?php } ?>
+		
 
 		<p class="post-meta">
-			<span class="posted-by"><?php esc_html_e('By','edupress'); ?> <?php echo esc_url( the_author_posts_link() ); ?></span>
-			<span class="posted-on"><?php esc_html_e('Published','edupress'); ?> <time class="entry-date published" datetime="<?php echo get_the_date('c'); ?>"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php echo get_the_date(); ?></a></time></span>
-			<span class="post-meta-category"><?php the_category(esc_html_x( ', ', 'Used on archive and post pages to separate multiple categories.', 'edupress' )); ?></span>
+			
 			<?php if ( function_exists('the_views') ) { echo '<span class="post-views"><span class="genericon genericon-show"></span> '; the_views(); echo '</span>'; } ?>
 		</p><!-- .post-meta -->
 

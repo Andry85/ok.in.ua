@@ -34,12 +34,7 @@ get_header(); ?>
 						$args['next_text'] = '%title' . '<span class="nav-link-label"><span class="genericon genericon-next"></span></span>';
 						echo get_the_post_navigation($args); ?>
 						
-						<?php
-							// If comments are open or we have at least one comment, load up the comment template.
-							if ( comments_open() || get_comments_number() ) :
-								comments_template();
-							endif;
-						?>
+						
 						
 					</div><!-- .site-content-wrapper .clearfix -->
 					

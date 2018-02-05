@@ -31,9 +31,10 @@
 			<?php the_title( sprintf( '<h2 class="title-post"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 			<p class="post-excerpt"><?php echo wp_kses_post(get_the_excerpt()); ?></p>
 			<p class="post-meta">
-				<span class="posted-by"><?php esc_html_e('By','edupress'); ?> <?php echo esc_url( the_author_posts_link() ); ?></span>
-				<span class="posted-on"><?php esc_html_e('Published','edupress'); ?> <time class="entry-date published" datetime="<?php echo get_the_date('c'); ?>"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php echo get_the_date(); ?></a></time></span>
-				<span class="post-meta-category"><?php the_category(esc_html_x( ', ', 'Used on archive and post pages to separate multiple categories.', 'edupress' )); ?></span>
+
+				
+
+
 				<?php if ( function_exists('the_views') ) { echo '<span class="post-views"><span class="genericon genericon-show"></span> '; the_views(); echo '</span>'; } ?>
 			</p><!-- .post-meta -->
 		</div><!-- .post-preview -->

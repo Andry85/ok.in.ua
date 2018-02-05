@@ -48,6 +48,15 @@
 	
 			</div><!-- #site-header-main -->
 
+			<ul class="socilaList">
+				<li>
+					<a href="https://www.facebook.com/okinuaEng/" target="_blank" title=""><img src="<?php echo get_template_directory_uri(); ?>/images/fb-icon.png" alt=""></a>
+				</li>
+				<li>
+					<a href="https://vk.com/public161488052" target="_blank" title=""><img src="<?php echo get_template_directory_uri(); ?>/images/vk-icon.png" alt=""></a>
+				</li>
+			</ul>
+
 	        <?php if ( has_nav_menu( 'primary' ) ) { ?>
 	        <div id="site-header-navigation">
 	

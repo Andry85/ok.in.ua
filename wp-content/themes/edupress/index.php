@@ -46,7 +46,7 @@ get_header(); ?>
 							</header>
 						<?php endif; ?>
 	
-						<?php if ( is_home() ) { ?><p class="widget-title"><?php esc_html_e('Recent Posts','edupress'); ?></p><?php } ?>
+						<?php if ( is_home() ) { ?><p class="widget-title"><?php esc_html_e('Останні новини','edupress'); ?></p><?php } ?>
 						
 						<ul id="recent-posts" class="ilovewp-posts ilovewp-posts-archive clearfix">
 							
